@@ -31,7 +31,7 @@ nav img {
 }
 
 .nav-links {
-    flex: 1; /* occupy all space in the row */
+    flex: 1; /* occupy all space in the w */
     text-align: right;
 }
 
@@ -416,6 +416,92 @@ h3 {
 .red-btn:hover {
     color: white;
 }
+
+/* team section */
+
+.team {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.team-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-col img {
+    width: 100%;
+    display: block;
+}
+
+.layer-team {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-team:hover {
+    background: rgba(5, 41, 85,0.55);
+}
+
+.layer-team h3 {
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute; 
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-team p {
+    width: 80%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    font-size: 20px;
+    transform: translateX(-50%);
+    position: absolute; 
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-team:hover h3 {
+    bottom: 60%;
+    opacity: 1;
+}
+
+.layer-team:hover p {
+    bottom: 45%;
+    opacity: 1;
+}
+
+/* ----- end of team section ----- */
+
+/* @media team settings for phones */
+
+@media(max-width: 700px){
+    
+    .layer-team:hover h3 {
+        bottom: 70%;
+        opacity: 1;
+    }
+}
+
 
 /* facilities section */
 
