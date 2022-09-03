@@ -31,7 +31,7 @@ nav img {
 }
 
 .nav-links {
-    flex: 1; /* occupy all space in the w */
+    flex: 1; /* occupy all space in the row */
     text-align: right;
 }
 
@@ -652,7 +652,7 @@ h3 {
 }
 
 .contact-us {
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding: 0;
 }
@@ -660,14 +660,14 @@ h3 {
 
 .contact-col {
     flex-basis: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
 .contact-col div {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .contact-col .fa{
