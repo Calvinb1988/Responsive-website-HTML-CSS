@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Set width to follow screen width and initial zoom when opening page -->
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="icon" href="images/logo2.png">
+        <title> Nurtures Little Helpers </title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Our css file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <!-- Navigation section -->
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!-- Courses content -->
+
+        <section class="course fadein-scroll-other">
+            <h1>Courses We Offer</h1>
+            <p>View our courses and classes below. For more information on these courses <br>please contact us via Phone or Email </p>
+
+            <div class="row">
+                <div class="course-col">
+                <h3>Antenatal Courses</h3>
+                <p>Prepare for your baby's birth and first few weeks with our 4 week in-depth antenatal course which runs from Tuesday to Thursdays weekly, or join a weekend short course with other soon-to-be parents.</p>
+                </div>
+            
+                <div class="course-col">
+                <h3>Breastfeeding Support</h3>
+                <p>Get the best feeding advice and lactation support from our IBCLC registered midwife</p>
+                </div>
+
+                <div class="course-col">
+                <h3>Baby & Me milestone groups</h3>
+                <p>Join our Friday weekly milestone and age-appropriate activity classes to boost your baby's emotional and physical development. </p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="course-col">
+                <h3>Track your baby's weight</h3>
+                <p>Visit the clinic to have your baby weighed and measured by our midwife to keep track of your baby's growth.</p>
+                </div>
+            
+                <div class="course-col">
+                <h3>Parenting Workshops</h3>
+                <p>Starting solids? Want to learn baby massage? Need feeding advice? Feeling a bit blue? Join one of our various workshops and seminars to guide yourself towards more confident, gentle parenting.</p>
+                </div>
+
+                <div class="course-col">
+                <h3>Infant CPR and First Aid Courses</h3>
+                <p>Get the confidence you need in an emergency situation. We cover CPR, first aid, burns, allergies and poisoning. Suitable for parents, caregivers and teachers. Presented by SafeKids. </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <section class="footer">
+            <h4>Find us on all major social media sites!</h4>
+            <p>Feel free to follow and stay up to date with all major promotions and events</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+         </section>
+
+
+        <!-- Javascript to toggle menu on mobile and scrolling/fade in effects -->
+        <script src="assets/javascript.js"></script>
+    </body>
+</html>
