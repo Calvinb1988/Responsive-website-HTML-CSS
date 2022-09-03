@@ -481,18 +481,69 @@ h3 {
 }
 
 .layer-team:hover h3 {
-    bottom: 60%;
+    bottom: 65%;
     opacity: 1;
 }
 
 .layer-team:hover p {
-    bottom: 45%;
+    bottom: 40%;
     opacity: 1;
 }
 
 /* ----- end of team section ----- */
 
-/* @media team settings for phones */
+/* @media team settings for phones and tablets */
+
+@media(max-width: 1550px){
+    
+    .layer-team:hover h3 {
+        bottom: 65%;
+        opacity: 1;
+    }
+
+    .layer-team:hover p {
+        bottom: 35%;
+        opacity: 1;
+    }
+
+    .layer-team p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1067px){
+    
+    .layer-team:hover h3 {
+        bottom: 65%;
+        opacity: 1;
+    }
+
+    .layer-team:hover p {
+        bottom: 30%;
+        opacity: 1;
+    }
+
+    .layer-team p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 800px){
+    
+    .layer-team:hover h3 {
+        bottom: 70%;
+        opacity: 1;
+    }
+
+    .layer-team:hover p {
+        bottom: 20%;
+        opacity: 1;
+    }
+
+    .layer-team p {
+        font-size: 12px;
+    }
+}
 
 @media(max-width: 700px){
     
@@ -500,7 +551,34 @@ h3 {
         bottom: 70%;
         opacity: 1;
     }
+
+    .layer-team:hover p {
+        bottom: 49%;
+        opacity: 1;
+    }
+
+    .layer-team p {
+        font-size: 15px;
+    }
 }
+
+@media(max-width: 400px){
+    
+    .layer-team:hover h3 {
+        bottom: 65%;
+        opacity: 1;
+    }
+
+    .layer-team:hover p {
+        bottom: 38%;
+        opacity: 1;
+    }
+
+    .layer-team p {
+        font-size: 12px;
+    }
+}
+
 
 
 /* facilities section */
